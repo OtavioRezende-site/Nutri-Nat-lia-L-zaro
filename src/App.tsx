@@ -343,8 +343,12 @@ export default function App() {
         <div className="px-6 md:px-12 lg:px-20 xl:px-40">
           <div className="grid md:grid-cols-4 gap-20 items-start mb-32">
             <div className="md:col-span-2 space-y-12">
-              <div className="h-20 w-20 bg-brand-gold/10 rounded-full flex items-center justify-center border border-brand-gold/20">
-                <span className="text-brand-gold font-serif text-4xl">NL</span>
+              <div className="flex items-center">
+                <img 
+                  src="1000259253-removebg-preview.png" 
+                  alt="Dra. Natália Lázaro Logo" 
+                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 transition-opacity hover:opacity-100"
+                />
               </div>
               <p className="font-serif text-3xl italic opacity-40 leading-snug">Referência em emagrecimento clínico e nutrição estratégica.</p>
               <div className="flex gap-8 text-xs font-black uppercase tracking-[0.3em]">
