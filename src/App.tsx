@@ -18,7 +18,7 @@ export default function App() {
         
         <div className="absolute inset-0 z-[-2]">
           <img 
-            src="Screenshot_20260514_102217_Gallery.jpg" 
+            src="/Screenshot_20260514_102217_Gallery.jpg" 
             alt="Dra. Natalia Lázaro" 
             className="w-full h-full object-cover opacity-40 md:opacity-50 object-[75%_35%] md:object-[85%_35%]"
           />
@@ -155,10 +155,10 @@ export default function App() {
           </motion.h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {[
-                { src: 'AISelect_20260511_140859_Chrome.jpg', alt: 'Espaço 1' },
-                { src: 'AISelect_20260511_140843_Chrome.jpg', alt: 'Espaço 2' },
-                { src: 'AISelect_20260511_140827_Chrome.jpg', alt: 'Espaço 3' },
-                { src: 'AISelect_20260511_140811_Chrome.jpg', alt: 'Espaço 4' }
+                { src: '/AISelect_20260511_140859_Chrome.jpg', alt: 'Espaço 1' },
+                { src: '/AISelect_20260511_140843_Chrome.jpg', alt: 'Espaço 2' },
+                { src: '/AISelect_20260511_140827_Chrome.jpg', alt: 'Espaço 3' },
+                { src: '/AISelect_20260511_140811_Chrome.jpg', alt: 'Espaço 4' }
               ].map((img, i) => (
               <motion.div 
                 key={i}
@@ -185,10 +185,10 @@ export default function App() {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-                { src: 'IMG-20260514-WA0023.jpg', alt: 'Resultado 1' },
-                { src: 'IMG-20260514-WA0022.jpg', alt: 'Resultado 2' },
-                { src: 'IMG-20260514-WA0021.jpg', alt: 'Resultado 3' },
-                { src: 'IMG-20260514-WA0020.jpg', alt: 'Resultado 4' }
+                { src: '/IMG-20260514-WA0023.jpg', alt: 'Resultado 1' },
+                { src: '/IMG-20260514-WA0022.jpg', alt: 'Resultado 2' },
+                { src: '/IMG-20260514-WA0021.jpg', alt: 'Resultado 3' },
+                { src: '/IMG-20260514-WA0020.jpg', alt: 'Resultado 4' }
               ].map((img, i) => (
               <motion.div 
                 key={i}
@@ -218,7 +218,7 @@ export default function App() {
               <div className="absolute -inset-4 border border-brand-gold/20 rounded-3xl -z-10" />
               <div className="w-full rounded-2xl shadow-3xl overflow-hidden aspect-[3/4] md:aspect-square border border-white/10">
                 <img 
-                  src="Screenshot_20260514_170842_Gallery.jpg" 
+                  src="/Screenshot_20260514_170842_Gallery.jpg" 
                   alt="Dra. Natalia Lázaro" 
                   className="w-full h-full object-cover object-[center_15%]" 
                 />
@@ -343,11 +343,11 @@ export default function App() {
         <div className="px-6 md:px-12 lg:px-20 xl:px-40">
           <div className="grid md:grid-cols-4 gap-20 items-start mb-32">
             <div className="md:col-span-2 space-y-12">
-              <div className="flex items-center">
+              <div className="h-16 flex items-center">
                 <img 
-                  src="1000259253-removebg-preview.png" 
-                  alt="Dra. Natália Lázaro Logo" 
-                  className="h-16 w-auto object-contain brightness-0 invert opacity-90 transition-opacity hover:opacity-100"
+                  src="/1000259253-removebg-preview.png" 
+                  alt="Dra. Natalia Lázaro Logo" 
+                  className="h-16 w-auto object-contain brightness-0 invert"
                 />
               </div>
               <p className="font-serif text-3xl italic opacity-40 leading-snug">Referência em emagrecimento clínico e nutrição estratégica.</p>
