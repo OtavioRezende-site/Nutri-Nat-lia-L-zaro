@@ -32,7 +32,7 @@ export default function Navbar() {
           {/* Logo & Name */}
           <a href="#home" className="flex items-center gap-2 md:gap-4 flex-1 min-w-0">
             <img 
-              src="/1000259253-removebg-preview.png" 
+              src="1000259253-removebg-preview.png" 
               alt="Dra. Natalia Lázaro Logo" 
               className="h-10 md:h-16 w-auto object-contain brightness-0 invert"
             />
@@ -89,7 +89,7 @@ export default function Navbar() {
             </button>
             
             <img 
-              src="/1000259253-removebg-preview.png" 
+              src="1000259253-removebg-preview.png" 
               alt="Dra. Natalia Lázaro Logo" 
               className="h-20 w-auto object-contain brightness-0 invert mb-4 opacity-80"
             />
